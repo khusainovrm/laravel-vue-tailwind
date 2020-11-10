@@ -1,12 +1,10 @@
 <template>
   <div>
-    <div class="container">
-      <h1>Home page with video</h1>
+    <h1>Home page MODULE Admin</h1>
 
-      <span>Hello from VUEX:</span>
-      <div>{{ user }}</div>
-      <div>{{ media }}</div>
-    </div>
+    <span>Hello from VUEX:</span>
+    <div>{{ user }}</div>
+    <div>{{ media }}</div>
   </div>
 </template>
 

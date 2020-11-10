@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h1>Empty Layout</h1>
+    <div class="bg-red-200 h-screen">
+    <h1>Empty Layout of main module</h1>
     <router-view />
   </div>
 </template>
@@ -8,6 +8,3 @@
 <script>
 export default {}
 </script>
-
-<style>
-</style>

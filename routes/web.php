@@ -18,9 +18,14 @@ use Illuminate\Support\Facades\Route;
 // });
 
 
-Route::get('/{any}', function () {
+Route::get('/', function () {
     return view('index');
-})->where( 'any', '.*');
+});
+
+Route::get('/module', function () {
+    return view('module');
+})->where('any', '.*');
+
 
 
 // Auth::routes();

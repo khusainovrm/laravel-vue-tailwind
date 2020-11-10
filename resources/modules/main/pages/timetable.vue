@@ -1,7 +1,5 @@
 <template>
-  <div class="mt-12">
-    <h1>Chat page</h1>
-  </div>
+  <h1>Timetable page</h1>
 </template>
 
 <script>
