@@ -1,11 +1,7 @@
 import Vue from 'vue'
 import App from "./App.vue"
 import store from './store'
-
-import "../css/app.css";
-// import "../css/tailwind.css";
-
-import router from "./router";
+import router from "./router/router.js"
 
 window.Vue = new Vue({
     router,

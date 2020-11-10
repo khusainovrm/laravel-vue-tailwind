@@ -8,26 +8,26 @@ const routes = [
         path: '/',
         name: 'home',
         meta: { layout: 'main' },
-        component: () => import('./views/index.vue')
+        component: () => import('../pages/index.vue')
     },
     {
         path: '/timetable',
         name: 'timetable',
         meta: { layout: 'main' },
-        component: () => import('./views/timetable.vue')
+        component: () => import('../pages/timetable.vue')
     },
     {
         path: '/chat',
         name: 'chat',
         meta: { layout: 'main' },
-        component: () => import('./views/chat.vue')
+        component: () => import('../pages/chat.vue')
     },
 
     {
         path: '/admin',
         name: 'admin',
         meta: { layout: 'empty', auth: true },
-        component: () => import('./views/admin.vue')
+        component: () => import('../pages/admin.vue')
     }
 ]
 
