@@ -1,9 +1,9 @@
 <template>
-  <component :is="layout">
-    <transition name="fade" mode="out-in">
-      <router-view />
-    </transition>
-  </component>
+  <transition name="fade" mode="out-in">
+    <component :is="layout">
+      <router-view :key="$route.path" />
+    </component>
+  </transition>
 </template>
 
 <script>
@@ -26,3 +26,13 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+</style>

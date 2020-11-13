@@ -3,9 +3,9 @@
     <h1>Module Admin - layout main</h1>
     <div class="my-10">
       <router-link
-        to="/"
+        to="/module"
         class="yellowButton"
-        >To home page</router-link
+        >To module page</router-link
       >
       <router-link to="/timetable" class="yellowButton">To timetable page</router-link>
       <router-link to="/chat" class="yellowButton">Chat</router-link>
